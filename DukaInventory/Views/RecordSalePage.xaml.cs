@@ -7,7 +7,7 @@ namespace DukaInventory.Views
     public partial class RecordSalePage : ContentPage
     {
         private int _itemId;
-        private Item _item;
+        private Item _item = null!;
 
         public RecordSalePage(int itemId)
         {

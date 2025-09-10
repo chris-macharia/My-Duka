@@ -8,7 +8,7 @@ namespace DukaInventory;
 
 public partial class App : Application
 {
-    public static DatabaseService Database { get; private set; }
+    public static DatabaseService Database { get; private set; } = null!;
 
     public App()
     {
