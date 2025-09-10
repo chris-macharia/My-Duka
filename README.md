@@ -20,7 +20,7 @@ Clone this repository:
 
 ```
 git clone https://github.com/chris-macharia/My-Duka.git
-cd DukaInventory
+cd My-Duka
 ```
 Or download the ZIP from GitHub and extract it.
 
