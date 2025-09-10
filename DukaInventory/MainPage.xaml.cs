@@ -1,9 +1,11 @@
 ﻿using Microsoft.Maui.Controls;
-using DukaInventory.Models;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
+using DukaInventory.Helpers;
+using DukaInventory.Models;
+
 
 namespace DukaInventory
 {
