@@ -9,9 +9,9 @@ namespace DukaInventory.Models
         public int Id { get; set; }
 
         [Unique]
-        public string SKU { get; set; } // optional unique code
+        public string SKU { get; set; } = string.Empty; // optional unique code
 
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         public string Unit { get; set; } = "pcs";
 
