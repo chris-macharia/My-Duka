@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="DukaInventory.Views.AddItemPage"
+             Title="Add Item">
+    <ScrollView>
+    <StackLayout Padding="12" Spacing="10">
+        <Entry x:Name="NameEntry" Placeholder="Item name" />
+        <Entry x:Name="SkuEntry" Placeholder="SKU (optional)" />
+        <Entry x:Name="QtyEntry" Placeholder="Quantity" Keyboard="Numeric" />
+        <Entry x:Name="CostEntry" Placeholder="Cost price" Keyboard="Numeric" />
+        <Entry x:Name="SellEntry" Placeholder="Selling price" Keyboard="Numeric" />
+        <Entry x:Name="LowStockEntry" Placeholder="Low stock threshold" Keyboard="Numeric" />
+        <Button Text="Save" Clicked="OnSaveClicked" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
