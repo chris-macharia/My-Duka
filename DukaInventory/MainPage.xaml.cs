@@ -77,5 +77,19 @@ namespace DukaInventory
             System.IO.File.WriteAllText(file, csv);
             await DisplayAlert("Exported", $"Inventory exported to:\n{file}", "OK");
         }
+         // Add this handler to match the Button in XAML
+    private void OnCounterClicked(object sender, EventArgs e)
+    {
+        if (sender is Button button)
+        {
+            int count = 0;
+
+            if (int.TryParse(button.Text?.Replace("Clicked ", "").Replace(" times", ""), out int result))
+                count = result;
+
+            count++;
+            button.Text = $"Clicked {count} times";
+        }
+    }
     }
 }
