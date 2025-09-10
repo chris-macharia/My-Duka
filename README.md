@@ -19,7 +19,7 @@ Before running the app, make sure you have:
 Clone this repository:
 
 ```
-git clone https://github.com/chris-macharia/DukaInventory.git
+git clone https://github.com/chris-macharia/My-Duka.git
 cd DukaInventory
 ```
 Or download the ZIP from GitHub and extract it.
